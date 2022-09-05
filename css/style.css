@@ -456,17 +456,24 @@ position: relative;
   /* opacity: .4; */
 }
 
-.dieseno-integral:hover{
+/*.dieseno-integral:hover{
     background-image:url("../img/ROYECTOS\ DE\ TRASCENDENCIA/DISEÑO INTEGRAL-hover.png");
    
+} */
+
+.dieseno-integral:hover{
+    background-image:url("../img/diseño-integral-hover.png");
+   
 }
-.desarrolo:hover{
+
+/*.desarrolo:hover{
     background-image:url("../img/ROYECTOS\ DE\ TRASCENDENCIA/DISEÑO SOTENIBLE-hover.png");
     
-}
-.plusvalía:hover{
+}*/
+
+/*.plusvalía:hover{
     background-image:url("../img/ROYECTOS\ DE\ TRASCENDENCIA/PLUSVALIA-hover.png");
-}
+}*/
 
 .p-card .p-card-img{
     height: 100px;
