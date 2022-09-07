@@ -1,0 +1,176 @@
+body{
+    overflow-x: hidden;
+}
+
+.single-item{
+   width: 900px;
+   height: 600px;
+   margin: auto;
+   
+}
+.single-item img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.slick-textt{
+
+    margin-top: 50px;
+    width: 60%;
+    margin:80px auto;
+    font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+
+letter-spacing: 0.15em;
+
+color: #FFFFFF;
+}
+.mas-proyectos{
+    width: 870px;
+    margin:20px auto;
+}
+.mas-proyectos .mas-proyectos-subtitle{
+    
+font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+/* or 133% */
+
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #4098FF;
+}
+.mas-proyectos-title{
+    font-family: 'Highfield';
+font-style: normal;
+font-weight: 100;
+font-size: 35px;
+line-height: 40px;
+/* or 80% */
+
+letter-spacing: 0.15em;
+text-transform: uppercase;
+font-family: 'highfieldthin', sans-serif !important;
+color: #FFFFFF;
+}
+.center{
+    width: 90%;
+    /* height: 10%; */
+    margin: auto;
+    padding: 20px;
+   
+}
+.sub-div{
+    /* width: 300px !important; */
+    background:url("../img/Foto\ 10.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background: red; */
+    height: 400px !important;
+margin: 10px;
+}
+
+.sub-div-1{
+    /* width: 300px !important; */
+    background:url("../img/Tres Aguas-20220825T103647Z-001/Tres Aguas/Carrousel Tres Aguas/Foto 9.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /*height: 400px !important;*/
+    height: 360px !important;
+margin: 10px;
+}
+.sub-div-2{
+    /* width: 300px !important; */
+    background:url("../img/Siet-marias-slider/Foto 1 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+     /*height: 400px !important;*/
+     height: 360px !important;
+margin: 10px;
+}
+.sub-div-3{
+    /* width: 300px !important; */
+  
+    background:url("../img/comercial-slider/Copy of Foto 1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background: red; */
+    /*height: 400px !important;*/
+    height: 360px !important;
+margin: 10px;
+}
+
+
+
+.sub-div-btn{
+    background: #0F40A2;
+    color: white;
+    width: 300px;
+    padding: 6px 20px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px); /*NEW TEST CODE Y */
+}
+.s-sub-title{
+    margin: 5px 0 0 0px;
+}
+.s-title{
+    font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 250;
+font-size: 20px;
+line-height: 40px;
+/* or 100% */
+
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.footerp{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+@media screen and (max-width:900px){
+    .single-item{
+        width: 90%;
+        height: 100%;
+    }
+    .single-item img{
+        width: 100%;
+        height: auto;
+    }
+   .mas-proyectos{
+    width: 90%;
+    
+    }
+    
+}
+@media screen and (max-width:600px){
+ 
+    .sub-div-btn{
+        width: 100%;
+    }
+    .center{
+        width: 100%;
+    }
+}

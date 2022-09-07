@@ -1,0 +1,66 @@
+.proyectos{
+    margin-top: 100px;
+    padding: 50px 0px;
+}
+.pryectos-title{
+    margin: 30px 0pc 70px 0px;
+    font-family: 'Highfield';
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+line-height: 40px;
+/* or 80% */
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.proyectos-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+.proyectos-tabs .tab{
+    height: 370px;
+    width: 500px;
+    /* background: rgba(0, 0, 0, 0.374); */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap: 30px;
+}
+.proyectos-tabs .tab p{
+    line-height: 40px;
+
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+font-family: "Sukhumvit Set";
+color: #FFFFFF;
+font-weight: 400;
+}
+.tab:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.habit:hover{
+    background-image: url("../img/HABITACIONALES-hover.png");
+   
+}
+.commercial:hover{
+ background-image: url("../img/COMERCIALES-hover.png");
+}
+.mixtos:hover{
+     background-image: url("../img/MIXTOS-hover.png");
+}.hotel:hover{
+    background-image: url("../img/HOTELEROS-hover.png");
+}
