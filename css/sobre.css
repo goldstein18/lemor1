@@ -423,4 +423,7 @@ color: #FFFFFF;
     .slick-dots {
         display:none;
     }
+    .servicios-text, .servicios-text-1, .servicios-text-2 {
+        display:none;
+      }
 }
