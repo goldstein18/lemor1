@@ -6,6 +6,13 @@ mobile_menu.addEventListener("click", function () {
     navbar_menu.classList.toggle("active");
 });
 
+let faq=document.querySelectorAll(".faq").forEach(function(item){
+    item.addEventListener("click",function(){
+        item.classList.toggle("active");
+    })
+    
+    });
+
 
 // swiper
 var swiper = new Swiper(".mySwiper", {
@@ -14,7 +21,7 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
         autoplay:true,
-        speed:300,
+        speed:1000,
       },
   });
 
