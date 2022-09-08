@@ -427,3 +427,53 @@ color: #FFFFFF;
         display:none;
       }
 }
+@media screen and (max-width:660px){
+    .servicios .quali {
+        display:none !important;
+        background: red;
+        position: relative;
+        bottom: 30px;
+        text-align: center;
+        font-size: 12px;
+        padding:0;
+      
+      }
+      .slick-dots {
+        display:none !important;
+      }
+      .missions{
+        gap: 50px;
+      }
+      .servicios-text{
+        display:none;
+        background-image: url("../img/COMERCIALES-hover.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+         
+          height:300px;
+          width: 300px;
+        margin-left:20px;
+         
+          
+          
+      }
+      .servicios p{
+        display:none;
+          
+      font-family: 'Sukhumvit Set';
+      font-style: normal;
+      font-weight: 400;
+      color: #FFFFFF;
+     
+      font-size: 12px;
+      
+      width:100%;
+      
+      
+      }
+
+      .servicios-text, .servicios-text-1, .servicios-text-2 {
+        display:none;
+      }
+}
