@@ -1,0 +1,592 @@
+.sobre-banner{
+    margin-top: 120px;
+}
+.sobre-banner img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+}
+.slick-dots li button::before {
+    font-size: 16px;
+    color: #4099ff47 ;
+    opacity: 0.7;
+  }
+
+  .slick-dots li.slick-active button::before {
+    color: #4098FF ;
+    opacity: 1;
+  }
+.missions{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* gap: 70px; */
+    flex-wrap: wrap;
+}
+.missions .mission{
+    width: 600px;
+    /* height: 350px; */
+    display:flex;
+    /* justify-content:center; */
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+}
+.missions .mission img{
+    margin: 20px 0px;
+    height: 90px;
+}
+.missions .mission .title{
+    font-family: 'Sukhumvit Set';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.mission p{
+    font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+/* or 160% */
+margin: 10px 0px;
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #FFFFFF;
+}
+ .p{
+    margin-top: 10px;
+}
+
+/* values */
+
+.value-title{
+    font-family: 'Highfield';
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+line-height: 40px;
+/* or 80% */
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin: 80px 0px;
+}
+.values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin: 30px 0px;
+}
+.values .value{
+    height: 300px;
+    width: 250px;
+    flex-direction: column;
+    display:flex;
+    gap: 20px;
+    justify-content:center;
+    align-items:center;
+    transition: .4s ease;
+}
+.values .value:hover{
+    background:rgba(21, 21, 21, 0.85);
+    border: 1px solid rgba(64, 152, 255, 1);
+}
+
+/* founder start */
+.founder-subtitle{
+    font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 400;
+/* font-size: 30px; */
+line-height: 40px;
+/* or 133% */
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #4098FF;
+
+}
+.founder-title{
+    font-family: 'Highfield';
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+line-height: 40px;
+
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-bottom: 50px;
+
+}
+
+
+.founders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px 0px;
+}
+.founder{
+    /* height: 400px; */
+    width: 400px;
+    position: relative;
+
+}
+.founder .quali{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #252525;
+    padding:20px 15px;
+    text-align: center;
+    width: 300px;
+    font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 250;
+/* font-size: 25px; */
+line-height: 40px;
+/* or 160% */
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.founder img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* founder end */
+.servicios-section{
+    margin: 50px 0px;
+    width:90%;
+    margin:auto;
+}
+.servicios-title{
+    font-family: 'Highfield';
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+line-height: 40px;
+/* or 80% */
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+margin: 30px 0px;
+color: #FFFFFF;
+}
+.servicios{
+    padding: 20px 50px;
+    margin: 0px 5px;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    flex-direction: column;
+
+}
+
+.servicios-text{
+  /*background-image: url("../img/COMERCIALES-hover.png");*/
+  background-image: url("../img/new-background-home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:20px 40px;
+   
+    
+    
+}
+.servicios-text-1{
+    /*background-image: url("../img/COMERCIALES-hover.png");*/
+    background-image: url("../img/evaluaciones.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding:20px 40px;
+     
+      
+      
+  }
+  .servicios-text-2{
+    /*background-image: url("../img/COMERCIALES-hover.png");*/
+    background-image: url("../img/inmobiliarios.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding:20px 40px;
+      min-height: 478px;
+     
+      
+      
+  }
+.servicios p{
+    
+font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 400;
+margin: 10px 0px;
+color: #FFFFFF;
+margin-bottom: 30px;
+
+
+}
+.servicios .fontss{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.servicios-top {
+    font-weight: 600 !important;
+}
+.servicios .quali-out{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.servicios .quali{
+    background: #0F40A2;
+    
+    position: relative;
+    bottom: 50px;
+
+    text-align:center;
+    padding: 25px 50px;
+
+    
+   
+}
+
+
+.group-section{
+    margin: 50px 0px;
+}
+.group-section .group-subtitle{
+    font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 400;
+
+line-height: 40px;
+/* or 133% */
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #4098FF;
+}
+.group-section .group-title{
+    font-family: 'Highfield';
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+line-height: 40px;
+/* or 80% */
+
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.group-para{
+  
+    width: 70%;
+    margin: auto;
+    font-family: 'Sukhumvit Set';
+font-style: normal;
+font-weight: 400;
+
+line-height: 1.9;
+/* or 160% */
+
+text-align: center;
+letter-spacing: 0.15em;
+/* margin: 35px 0px 0px 0px; */
+margin-top: 35px;
+color: #FFFFFF;
+
+}
+.group-img{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 40px 0px;
+}
+.group-img img {
+    width: 500px;
+    height: 500px;
+  }
+
+
+
+
+  /* :::::::::::::::::FAQ SECTION ::::::::::::: */
+
+  /* faq */
+
+  /*:root {
+    --bg-clr: black;
+    --orange-clr: #e93d4c;
+    --call-to-action: #e93d4c;
+    --header-clr: black;
+    --white: #fff;
+    --footer:rgba(17, 14, 14, 0.982);
+
+}*/
+
+.faq-section{
+  
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Sukhumvit Set', sans-serif !important;
+    
+   
+}
+.faq-section main {
+    width: 600px;
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
+    /* background: black; */
+    font-family: 'Open Sans', sans-serif;
+  
+    color: white;
+    /* border: 2px solid white; */
+    padding: 20px;
+    padding-top:0;
+   
+}
+
+main .title {
+    width: 100%;
+    display:flex;
+    font-size: 30px;
+    justify-content:center;
+    align-items:center;font-weight: bold;
+    font-family: 'highfieldthin', sans-serif !important;
+    margin: 10px 0px;
+    background-color:#0F40A2;
+    padding:10px;
+    text-align: center;
+    
+}
+
+
+.faq {
+    cursor: pointer;
+    padding: 10px;
+    /* margin: 10px; */
+    /* border-bottom: 2px solid white; */
+}
+
+.faq h3 {
+    /* font-size: 1.5rem; */
+    /* padding: 5px 0px 5px 0px; */
+    font-size: 17px;
+    padding: 8px 10px;
+    text-align: left;
+    background:var(--call-to-action);
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Sukhumvit Set', sans-serif !important;
+}
+
+.faq p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sukhumvit Set', sans-serif !important;
+}
+
+
+.answer {
+    transition: max-height 1s ease;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.faq.active .answer {
+    animation: fade 1s ease-in-out;
+    max-height: 200px;
+}
+
+.faq-toggle {
+    display:none;
+}
+
+
+/* :::::::::::::::::: FAQ SECTION END ::::::::::::::: */
+
+@media screen and (max-width:880px){
+    .group-img{
+        padding: 10px;
+    }
+    .group-img img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:800px){
+    .sobre-banner{
+        margin-top: 80px;
+    }
+    .values{
+        gap: 30px;
+    }
+    
+}
+@media screen and (max-width:660px){
+    .servicios .quali {
+        display:none !important;
+        /*background: red;*/
+        position: relative;
+        bottom: 30px;
+        text-align: center;
+        font-size: 12px;
+        padding:0;
+      
+      }
+      .slick-dots {
+        display:none !important;
+      }
+      .missions{
+        gap: 50px;
+      }
+      .servicios-text{
+        display:none;
+        background-image: url("../img/COMERCIALES-hover.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+         
+          height:300px;
+          width: 300px;
+        margin-left:20px;
+         
+          
+          
+      }
+      .servicios p{
+        display:none;
+          
+      font-family: 'Sukhumvit Set';
+      font-style: normal;
+      font-weight: 400;
+      color: #FFFFFF;
+     
+      font-size: 12px;
+      
+      width:100%;
+      
+      
+      }
+}
+@media screen and (max-width:500px){
+    .group-para{
+        width: 100%;
+        padding: 20px;
+    }
+    .mission p{
+        padding: 20px;
+        font-size: 16px;
+    }
+    .slick-dots {
+        display:none;
+    }
+}
+
+@media screen and (max-width:660px){
+    .servicios .quali {
+        display:none !important;
+        /*background: red;*/
+        position: relative;
+        bottom: 30px;
+        text-align: center;
+        font-size: 12px;
+        padding:0;
+      
+      }
+      .slick-dots {
+        display:none !important;
+      }
+      .missions{
+        gap: 50px;
+      }
+      .servicios-text{
+        display:none;
+        background-image: url("../img/COMERCIALES-hover.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+         
+          height:300px;
+          width: 300px;
+        margin-left:20px;
+         
+          
+          
+      }
+      .servicios p{
+        display:none;
+          
+      font-family: 'Sukhumvit Set';
+      font-style: normal;
+      font-weight: 400;
+      color: #FFFFFF;
+     
+      font-size: 12px;
+      
+      width:100%;
+      
+      
+      }
+
+      .servicios-text, .servicios-text-1, .servicios-text-2 {
+        display: none;
+      }
+
+      .faq-toggle {
+        display:inline;
+    }
+
+    .servicios-title {
+        margin: 0px 0px;
+    }
+    .slick-initialized .slick-slide {
+        display:none;
+    }
+}
