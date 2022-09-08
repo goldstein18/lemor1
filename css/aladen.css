@@ -75,7 +75,7 @@ color: #FFFFFF;
     background-repeat: no-repeat;
     position: relative;
     /* background: red; */
-    height: 400px !important;
+    height: 360px !important;
 margin: 10px;
 }
 
@@ -114,6 +114,19 @@ margin: 10px;
     height: 360px !important;
 margin: 10px;
 }
+
+.sub-div-tezas{ 
+      /* width: 300px !important; */
+      background:url("../img/tesal hills-slider/tezal-project.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      /* background: red; */
+      height: 360px !important;
+  margin: 10px;
+}
+
 
 
 
@@ -174,3 +187,4 @@ color: #FFFFFF;
         width: 100%;
     }
 }
+
