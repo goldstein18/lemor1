@@ -222,7 +222,6 @@ color: #FFFFFF;
     background-repeat: no-repeat;
     background-position: center;
     padding:20px 40px;
-       min-height: 478px;
    
     
     
@@ -234,7 +233,6 @@ color: #FFFFFF;
       background-repeat: no-repeat;
       background-position: center;
       padding:20px 40px;
-       min-height: 478px;
      
       
       
@@ -247,7 +245,6 @@ color: #FFFFFF;
       background-position: center;
       padding:20px 40px;
       min-height: 478px;
-       
      
       
       
@@ -417,7 +414,7 @@ main .title {
     /* font-size: 1.5rem; */
     /* padding: 5px 0px 5px 0px; */
     font-size: 17px;
-    padding: 8px 0px;
+    padding: 8px 10px;
     text-align: left;
     background:var(--call-to-action);
     font-family: 'Open Sans', sans-serif;
@@ -444,7 +441,7 @@ main .title {
 
 .faq.active .answer {
     animation: fade 1s ease-in-out;
-    max-height: 500px;
+    max-height: 200px;
 }
 
 .faq-toggle {
