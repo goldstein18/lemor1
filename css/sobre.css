@@ -222,7 +222,7 @@ color: #FFFFFF;
     background-repeat: no-repeat;
     background-position: center;
     padding:20px 40px;
-   
+   min-height: 478px;
     
     
 }
@@ -233,6 +233,7 @@ color: #FFFFFF;
       background-repeat: no-repeat;
       background-position: center;
       padding:20px 40px;
+    min-height: 478px;
      
       
       
