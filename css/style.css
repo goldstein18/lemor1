@@ -777,6 +777,7 @@ font-weight: 400;
         gap: 10px;
     }
    .swiper #btnn-prev, .swiper #btnn-nxt{
+        opacity: 0;
         top: 30vh;
     }
     .swiper {
