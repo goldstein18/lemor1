@@ -458,16 +458,18 @@ position: relative;
   /* opacity: .4; */
 }
 
+
 .dieseno-integral:hover{
-    background-image:url("../img/architecture\ 1.png");
+    background-image:url("../img/proyectos-de/diseño-integral.png");
    
 }
 .desarrolo:hover{
-    background-image:url("../img/sostenibilidad\ 1.png");
+    background-image:url("../img/proyectos-de/diseño-sostenible.png");
     
 }
+
 .plusvalía:hover{
-    background-image:url("../img/ROYECTOS\ DE\ TRASCENDENCIA/PLUSVALIA-hover.png");
+    background-image:url("../img/proyectos-de/plusvalia.png");
 }
 
 .p-card .p-card-img{
