@@ -460,16 +460,16 @@ position: relative;
 
 
 .dieseno-integral:hover{
-    background-image:url("../img/proyectos-de/diseño-integral.png");
+    background-image:url("/img/proyectos-de/diseño-integral.png");
    
 }
 .desarrolo:hover{
-    background-image:url("../img/proyectos-de/diseño-sostenible.png");
+    background-image:url("/img/proyectos-de/diseño-sostenible.png");
     
 }
 
 .plusvalía:hover{
-    background-image:url("../img/proyectos-de/plusvalia.png");
+    background-image:url("/img/proyectos-de/plusvalia.png");
 }
 
 .p-card .p-card-img{
