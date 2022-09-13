@@ -162,7 +162,7 @@ margin-bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     background: #252525;
-    padding:20px 15px;
+    padding:5px 15px;
     text-align: center;
     width: 300px;
     font-family: 'Sukhumvit Set';
@@ -177,6 +177,7 @@ letter-spacing: 0.15em;
 text-transform: uppercase;
 
 color: #FFFFFF;
+    font-size: 20px;
 }
 .founder img{
     width: 100%;
