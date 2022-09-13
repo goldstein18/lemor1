@@ -58,6 +58,12 @@ padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    /*border:2px solid green;*/
+    flex-direction: row;
+    width: 95%;
+    margin:0 auto;
+    align-items: center;
+    justify-content: center;
 }
 .mixtos_desing .desgin_text{
     position: relative;
@@ -65,7 +71,8 @@ padding: 30px;
     background: white;
     color: black;
     padding: 20px 40px;
-    width: 500px;
+    width: 70%;
+   /* border:2px solid red;*/
     /* height: 500px; */
 }
 .mixtos_desing .desgin_text .design-subtitle {
@@ -120,9 +127,15 @@ color: #181818;
     /*margin: 20px 0 0 0px;*/
     margin-bottom:11px;
 }
+
+.design_img {
+    width:100%;
+   /* border:2px solid yellow;*/
+}
 .design_img img{
-width: 100%;
+width: 100% !important;
 height: 570px;
+/*border:2px solid purple;*/
 }
 .mixtos_desing .desgin_text.text-box{
     left: -80px;
