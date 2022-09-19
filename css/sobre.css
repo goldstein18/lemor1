@@ -415,9 +415,11 @@ main .title {
 .faq h3 {
     /* font-size: 1.5rem; */
     /* padding: 5px 0px 5px 0px; */
+   
     font-size: 17px;
     /*padding: 8px 10px;*/
     paddin-left:0px;
+     padding-bottom:5px;
     text-align: left;
     background:var(--call-to-action);
     font-family: 'Open Sans', sans-serif;
