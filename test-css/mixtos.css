@@ -1,0 +1,206 @@
+/* body{
+    max-width: 1800px;
+    margin: auto;
+} */
+
+.contacto-banner {
+    margin-top: 120px !important;
+    position: relative;
+}
+
+.contacto-banner img {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.section-mixtos {
+    margin: 30px 0px;
+}
+
+.mixtos_subtitle {
+    /* font-family: 'Sukhumvit Set'; */
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 30px; */
+    line-height: 40px;
+    /* or 133% */
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #4098FF;
+}
+
+.mixtos_title {
+    font-family: 'Highfield';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 40px;
+    /* or 80% */
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* mixtos_desing */
+
+.mixtos_desing {
+    /* width:90%;................
+    margin:40px auto; */
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border:2px solid green;*/
+    flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10% !important;
+    padding-right: 50px !important;
+}
+
+.mixtos_desing .desgin_text {
+    position: relative;
+    left: 80px;
+    background: white;
+    color: black;
+    padding: 20px 40px;
+    width: 70%;
+    /* border:2px solid red;*/
+    /* height: 500px; */
+}
+
+.mixtos_desing .desgin_text .design-subtitle {
+    /* font-family: 'Sukhumvit Set'; */
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 18px; */
+    line-height: 40px;
+    /* or 222% */
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    color: #4098FF;
+}
+
+.mixtos_desing .desgin_text .design_title {
+    /* font-family: 'Sukhumvit Set'; */
+    /* font-style: normal; */
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+.mixtos_desing .desgin_text p {
+    margin: 20px 0px;
+    font-family: 'Sukhumvit Set';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    letter-spacing: 0.15em;
+    color: #181818;
+}
+
+.mixtos_desing .desgin_text button {
+    cursor: pointer;
+    padding: 20px 50px;
+    color: white;
+    border: none;
+    background: #0F40A2;
+    font-size: 18px;
+    /*margin: 20px 0 0 0px;*/
+    margin-bottom: 11px;
+}
+
+.reverse {
+    margin-left: 6% !important;
+}
+
+.design_img {
+    width: 100%;
+    /* border:2px solid yellow;*/
+}
+
+.design_img img {
+    width: 100% !important;
+    height: 570px;
+    /*border:2px solid purple;*/
+}
+
+.mixtos_desing .desgin_text.text-box {
+    left: -80px;
+    position: relative;
+    /* right: 50px; */
+}
+
+@media screen and (max-width:1120px) {
+    .mixtos_desing .desgin_text {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .mixtos_desing {
+        margin-top: 30px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column-reverse; */
+    }
+    .mixtos_desing .desgin_text {
+        left: 20px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .mixtos_desing .desgin_text {
+        width: 95%;
+    }
+    .mixtos_desing {
+        flex-direction: column-reverse;
+    }
+    .mixtos_title h1 {
+        font-size: 25px;
+    }
+    .reverse {
+        flex-direction: column;
+    }
+    .mixtos_desing .desgin_text {
+        left: 0;
+        bottom: 119px;
+    }
+    .mixtos_desing .desgin_text.text-box {
+        left: 0;
+        bottom: 119px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contacto-banner img {
+        width: 100%;
+        height: auto;
+    }
+    .contacto-banner {
+        margin-top: 80px !important;
+        position: relative;
+    }
+    .design_img img {
+        width: 100%;
+        height: auto;
+    }
+}
