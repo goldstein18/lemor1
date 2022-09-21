@@ -446,7 +446,7 @@ main .title {
 
 .faq.active .answer {
     animation: fade 1s ease-in-out;
-    max-height: 200px;
+    max-height: 500px;
 }
 
 .faq-toggle {
